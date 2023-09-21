@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { TiArrowForward } from "react-icons/ti";
+import React from "react";
 
 const YPIM = () => {
   return (
