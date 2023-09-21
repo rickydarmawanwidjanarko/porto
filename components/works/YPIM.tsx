@@ -12,7 +12,7 @@ const YPIM = () => {
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
         {'IT'}
-        <span className="text-textOrange tracking-wide">{'@YPIM'}</span>
+        <span className="text-textOrange tracking-wide">{'@Yayasan Putra Indonesia Malang'}</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
         {'Nov 2019'} - present

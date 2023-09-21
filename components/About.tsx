@@ -17,7 +17,7 @@ const About = () => {
                         {'Hello there!'} <br /> {'My name is Ricky Darmawan Widjanarko. Has two years experience in creating website-based applications.'}
                     </p>
                     <p>
-                        {'I have completed my'} <span className="text-textOrange">{'Bachelors degree'}</span>{'in the field of'}<span className="text-textOrange">{'Informatics Engineering'}</span> {'in'} <span className="text-textOrange">{'2023.'}</span> {'Throughout my education, I have also been working at an educational foundation in'} <span className="text-textOrange">{'Malang-East Java'}</span>{', up to the present.'}
+                        {'I have completed my'} <span className="text-textOrange">{'Bachelors degree'}</span>{" "}{'in the field of'}<span className="text-textOrange">{" "}{'Informatics Engineering'}</span> {'in'} <span className="text-textOrange">{'2023.'}</span> {'Throughout my education, I have also been working at an educational foundation in'} <span className="text-textOrange">{'Malang-East Java'}</span>{', up to the present.'}
                     </p>
                     <p>{'Here are a few technologies I have been working with recently:'}</p>
                     <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">                         <li className="flex items-center gap-2">
