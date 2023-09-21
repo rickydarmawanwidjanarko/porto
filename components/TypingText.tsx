@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
+interface TypingTextProps {
+    text: string; // Tipe string untuk prop "text"
+}
 
-const TypingText = ({ text }) => {
+const TypingText: React.FC<TypingTextProps> = ({ text }) => {
     const [displayText, setDisplayText] = useState('');
     const [index, setIndex] = useState(0);
     const [showCursor, setShowCursor] = useState(true);
