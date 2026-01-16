@@ -1,28 +1,38 @@
 import { useState } from "react";
 import SectionTitle from "./SectionTitle";
+import AvillaBali from "./works/AvillaBali";
 import YPIM from "./works/YPIM";
 import Indomaigoo from "./works/Indomaigoo";
 import Kupu from "./works/Kupu";
 
 
 const Experience = () => {
+    const [workAvillaBali, setworkAvillaBali] = useState(true);
     const [workYPIM, setworkYPIM] = useState(true);
     const [workIndomaigoo, setworkIndomaigoo] = useState(false);
     const [workKupu, setworkKupu] = useState(false);
 
-
+    const handleAvillaBali = () => {
+        setworkAvillaBali(true);
+        setworkYPIM(false);
+        setworkIndomaigoo(false);
+        setworkKupu(false);
+    };
     const handleYPIM = () => {
         setworkYPIM(true);
+        setworkAvillaBali(false);
         setworkIndomaigoo(false);
         setworkKupu(false);
     };
     const handleIndomaigoo = () => {
         setworkYPIM(false);
+        setworkAvillaBali(false);
         setworkIndomaigoo(true);
         setworkKupu(false);
     };
     const handleKupu = () => {
         setworkYPIM(false);
+        setworkAvillaBali(false);
         setworkIndomaigoo(false);
         setworkKupu(true);
     };
@@ -34,6 +44,15 @@ const Experience = () => {
             <SectionTitle title="Work Experience" titleNo="" />
             <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
                 <ul className="md:w-32 flex flex-col">
+                    <li
+                        onClick={handleAvillaBali}
+                        className={`${workAvillaBali
+                            ? "border-l-textOrange text-textOrange"
+                            : "border-l-hoverColor text-textDark"
+                            } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
+                    >
+                        AvillaBali
+                    </li>
                     <li
                         onClick={handleYPIM}
                         className={`${workYPIM
@@ -62,6 +81,7 @@ const Experience = () => {
                         CV. Kupu Digital
                     </li>
                 </ul>
+                {workAvillaBali && <AvillaBali />}
                 {workYPIM && <YPIM />}
                 {workIndomaigoo && <Indomaigoo />}
                 {workKupu && <Kupu />}

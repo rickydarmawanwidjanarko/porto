@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { TiArrowForward } from "react-icons/ti";
 import React from "react";
 
-const YPIM = () => {
+const AvillaBali = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -12,10 +12,10 @@ const YPIM = () => {
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
         {'IT'}
-        <span className="text-textOrange tracking-wide">{'@Yayasan Putra Indonesia Malang'}</span>
+        <span className="text-textOrange tracking-wide">{'@AvillaBali'}</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        {'Nov 2019'} - {'Agst 2025'}
+        {'Dec 2025'} - present
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
@@ -41,4 +41,4 @@ const YPIM = () => {
   );
 };
 
-export default YPIM;
+export default AvillaBali;
