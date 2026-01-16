@@ -8,7 +8,7 @@ import Kupu from "./works/Kupu";
 
 const Experience = () => {
     const [workAvillaBali, setworkAvillaBali] = useState(true);
-    const [workYPIM, setworkYPIM] = useState(true);
+    const [workYPIM, setworkYPIM] = useState(false);
     const [workIndomaigoo, setworkIndomaigoo] = useState(false);
     const [workKupu, setworkKupu] = useState(false);
 
