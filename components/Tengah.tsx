@@ -31,15 +31,7 @@ const Tengah = () => {
                 transition={{ duration: 0.5, delay: 0.8 }}
                 className="text-base md:max-w-[650px] text-textDark font-medium"
             >
-                I am a web developer with 2 years of experience in PHP. I have a strong foundation in web application development using the PHP programming language. <br /><br />
-                <a href="" target="_blank">
-                    {" "}
-                    <span className="text-textOrange inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
-                        Learn More
-                        <span className="absolute w-full h-[1px] bg-textOrange left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500">
-                        </span>
-                    </span>
-                </a>
+                I am a web developer with 4 years of experience in PHP. I have a strong foundation in web application development using the PHP programming language. <br /><br />
             </motion.p>
             <a href="#project" target="_blank"></a>
             <motion.button

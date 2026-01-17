@@ -22,19 +22,13 @@ const AvillaBali = () => {
           <span className="text-textOrange mt-1">
             <TiArrowForward />
           </span>
-          {'Ensuring computers and laptops run smoothly.'}
+          {'Ensure that all company apllications are running properly.'}
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textOrange mt-1">
             <TiArrowForward />
           </span>
-          {'Adding website features as per supervisors instructions.'}
-        </li>
-        <li className="text-base flex gap-2 text-textDark">
-          <span className="text-textOrange mt-1">
-            <TiArrowForward />
-          </span>
-          {'Repairing laptop and computer hardware and software.'}
+          {'Developt and add new features of the companys applications or websites.'}
         </li>
       </ul>
     </motion.div>
