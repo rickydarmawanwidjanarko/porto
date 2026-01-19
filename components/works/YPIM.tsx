@@ -11,7 +11,7 @@ const YPIM = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        {'IT'}
+        {'IT Support Specialist'}
         <span className="text-textOrange tracking-wide">{'@Yayasan Putra Indonesia Malang'}</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
