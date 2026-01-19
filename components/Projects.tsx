@@ -1,5 +1,5 @@
 import React from "react";
-import { ppdbImg, esuratImg, dailyImg } from "@/public/assets";
+import { ppdbImg, esuratImg, dailyImg, livingstoneImg } from "@/public/assets";
 import Image from "next/image";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { TbBrandGithub } from "react-icons/tb";
@@ -116,6 +116,38 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* End Daily */}
+                {/* Livingstone */}
+                <div className="flex flex-col xl:flex-row gap-6">
+                    <a
+                        className="w-full xl:w-1/2 h-auto relative group"
+                        href="#"
+                        target="_blank"
+                    >
+                        <div>
+                            <Image
+                                className="w-full h-full object-contain"
+                                src={livingstoneImg} }
+                            alt="livingstoneImg"
+                            />
+                            <div className="absolute w-full h-full bg-textOrange/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+                        </div>
+                    </a>
+                    <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right xl:-ml-16 z-10">
+                        <div>
+                            <p className="font-titleFont text-textOrange text-sm tracking-wide">
+                                Project 4
+                            </p>
+                            <h3 className="text-2xl font-bold">Livingstone</h3>
+                        </div>
+                        <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+                            Website Company Profile for<span className="text-textOrange">Livingstone</span> and is web-based.{" "}
+                        </p>
+                        <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+                            <li>Wordpress</li>
+                        </ul>
+                    </div>
+                </div>
+                {/* End Livingstone */}
             </div>
         </section>
     );
