@@ -117,7 +117,7 @@ const Projects = () => {
                 </div>
                 {/* End Daily */}
                 {/* Livingstone */}
-                <div className="flex flex-col xl:flex-row gap-6">
+                <div className="flex flex-col xl:flex-row-reverse gap-6">
                     <a
                         className="w-full xl:w-1/2 h-auto relative group"
                         href="#"
@@ -137,10 +137,10 @@ const Projects = () => {
                             <p className="font-titleFont text-textOrange text-sm tracking-wide">
                                 Project 4
                             </p>
-                            <h3 className="text-2xl font-bold">Livingstone</h3>
+                            <h3 className="text-2xl font-bold">Livingstone | Upper room</h3>
                         </div>
                         <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-                            Website Company Profile for <span className="text-textOrange">Livingstone</span> and is web-based.{" "}
+                            Company Profile for <span className="text-textOrange">Livingstone | Upper room</span> and is web-based.{" "}
                         </p>
                         <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
                             <li>Wordpress</li>
