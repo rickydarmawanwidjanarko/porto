@@ -126,8 +126,8 @@ const Projects = () => {
                         <div>
                             <Image
                                 className="w-full h-full object-contain"
-                                src={livingstoneImg} }
-                            alt="livingstoneImg"
+                                src={livingstoneImg}
+                                alt="livingstoneImg"
                             />
                             <div className="absolute w-full h-full bg-textOrange/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
                         </div>
