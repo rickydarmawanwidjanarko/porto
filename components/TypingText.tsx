@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 interface TypingTextProps {
-    text: string; // Tipe string untuk prop "text"
+    text: string;
 }
 
 const TypingText: React.FC<TypingTextProps> = ({ text }) => {
@@ -13,16 +13,16 @@ const TypingText: React.FC<TypingTextProps> = ({ text }) => {
             if (index < text.length) {
                 setDisplayText((prevText) => prevText + text.charAt(index));
                 setIndex(index + 1);
-                setShowCursor(false); // Sembunyikan kursor selama teks masih diketik
+                setShowCursor(false);
             } else {
                 clearInterval(interval);
-                setShowCursor(true); // Tampilkan kembali kursor setelah teks selesai
+                setShowCursor(true);
                 setTimeout(() => {
-                    setDisplayText(''); // Mengatur ulang teks setelah selesai
+                    setDisplayText('');
                     setIndex(0);
-                }, 1000); // Mengatur jeda sebelum mengulang
+                }, 1000);
             }
-        }, 100); // Ubah kecepatan pengetikan sesuai preferensi Anda
+        }, 300);
         return () => clearInterval(interval);
     }, [index, text]);
 

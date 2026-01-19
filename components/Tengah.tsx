@@ -33,15 +33,18 @@ const Tengah = () => {
             >
                 I am a web developer with 4 years of experience in PHP. I have a strong foundation in web application development using the PHP programming language. <br /><br />
             </motion.p>
-            <a href="#project" target="_blank"></a>
-            <motion.button
-                initial={{ y: 10, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.5, delay: 0.9 }}
-                className="w-52 h-14 text-sm font-titleFont border border-textOrange rounded-md text-textOrange 
-            tracking-wide hover:bg-hoverColor duration-300">
-                My Project
-            </motion.button>
+            <a href="#projects">
+                <motion.button
+                    initial={{ y: 10, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.5, delay: 0.9 }}
+                    className="w-52 h-14 text-sm font-titleFont border border-textOrange rounded-md text-textOrange 
+        tracking-wide hover:bg-hoverColor duration-300"
+                >
+                    My Project
+                </motion.button>
+            </a>
+
         </section>
     )
 }
